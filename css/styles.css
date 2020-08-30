@@ -3,13 +3,10 @@ ul, ol, li{
 }
 
 .main-bg{
-    height: 100vh;
-    width: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    position: fixed;
-    top: 0;
-    z-index: -1;
     background-image: url(../images/267059395cc8f5aa8faa6e0de3e9a8e3.png);
 }
 
@@ -38,15 +35,24 @@ header .gnav ul.gnavList {
 
 figure {
     display: block;
+    margin: 0;
 }
 
 main{
-    margin-top: 90px;
+    background-color: #e6d8b3;
 }
 
 .main-visual {
     height: 550px;
     padding-top: 50px;
     position: relative;
+}
+
+
+.fixed-bg {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
